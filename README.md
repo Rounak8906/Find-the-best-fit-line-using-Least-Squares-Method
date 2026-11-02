@@ -45,7 +45,8 @@ plt.plot(x,y_pred,color="red")
 plt.show()
 ```
 ## Output:
-<img width="995" height="772" alt="image" src="https://github.com/user-attachments/assets/283481cf-2826-437d-815d-baa82f572439" />
+<img width="1043" height="157" alt="image" src="https://github.com/user-attachments/assets/a75639e5-aafc-448d-a755-ebd095e8af5d" />
+<img width="745" height="582" alt="image" src="https://github.com/user-attachments/assets/e87ce6f2-67ec-4387-b5c2-f0639588e4b5" />
 
 
 ## Result:
