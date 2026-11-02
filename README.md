@@ -24,9 +24,28 @@ Developed by:
 RegisterNumber:  
 */
 ```
-
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+xmean = np.mean(x)
+ymean = np.mean(y)
+num,den = 0,0 # num = numerator , den = denomenator
+for i in range(len(x)):
+    num+=(x[i] - xmean) * (y[i] - ymean)
+    den+=(x[i] - xmean)**2
+m=num/den
+c=ymean - ( m * xmean )
+print(m,c)
+y_pred = (m*x) + c
+print(y_pred)
+plt.scatter(x,y)
+plt.plot(x,y_pred,color="red")
+plt.show()
+```
 ## Output:
-![best fit line](sam.png)
+<img width="995" height="772" alt="image" src="https://github.com/user-attachments/assets/283481cf-2826-437d-815d-baa82f572439" />
 
 
 ## Result:
